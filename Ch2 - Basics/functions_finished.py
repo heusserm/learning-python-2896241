@@ -30,6 +30,9 @@ def multi_add(*args):
         result = result + x
     return result
 
+print(cube(cube(2)))
+quit()
+
 
 func1()
 print(func1())
