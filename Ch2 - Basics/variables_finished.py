@@ -13,7 +13,17 @@ mylist = [0, 1, "two", 3.2, False]
 mytuple = (0, 1, 2)
 mydict = {"one" : 1, "two" : 2}
 
+
+
 print(myint)
+myint=myint+1
+print(myint)
+myint = "5"
+myint = myint + "+1"
+print(myint)
+
+
+
 print(myfloat)
 print(mystr)
 print(mybool)
@@ -23,9 +33,11 @@ print(mydict)
 
 # re-declaring a variable works
 myint = "abc"
-print (myint)
+print(myint)
+print(" ")
 
 # to access a member of a sequence type, use []
+print("Print particular elements of lists ...")
 print(mylist[2])
 print(mytuple[1])
 # use slices to get parts of a sequence
@@ -39,6 +51,8 @@ print(mydict["one"])
 # ERROR: variables of different types cannot be combined
 #print ("string type " + 123)
 print ("string type " + str(123))
+print(" ")
+print("Scoping of variables...")
 
 # Global vs. local variables in functions
 def someFunction():
